@@ -1,0 +1,17 @@
+#header-image {
+  width: 8%;
+  height: 7em;
+  margin: 0 0 0 1em;
+}
+
+header {
+  background-color:#0F0E0E;
+  height: 8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-text {
+  
+}
