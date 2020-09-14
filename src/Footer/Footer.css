@@ -1,0 +1,42 @@
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.white-line {
+  width: 80%;
+}
+
+.contact-container {
+  width: 20%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: .4em;
+}
+
+.nav-bar-area {
+  width: 80%;
+  display: flex;
+}
+
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-bar-item {
+  color: white;
+  text-decoration: none;
+  font-family: Rokkitt;
+  margin-top: 1em;
+}
+
+.nav-bar-item:hover {
+  color: greenyellow;
+  transform: scale(1.2)
+}
