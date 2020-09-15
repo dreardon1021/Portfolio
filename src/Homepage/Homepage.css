@@ -1,0 +1,19 @@
+.home-content-container {
+  width: 80%;
+  min-height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.summary {
+  text-align: center;
+  font-size: 24px
+}
+
+.headshot {
+  width: 27%;
+  height: 18em;
+  border-radius: 50%;
+}

@@ -5,6 +5,7 @@ import '../index.css'
 const Header = () => {
   return (
     <header>
+      <a className="header-link" href="/">
       <div className="logo-container">
         <div className="DR-logo">
           <p className="logo-D header-logo-text">D</p>
@@ -15,6 +16,7 @@ const Header = () => {
           <p className="header-name-title">Software Engineer</p>
         </div>
       </div>
+      </a>
     </header>
   )
 }
