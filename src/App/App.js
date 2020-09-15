@@ -17,20 +17,20 @@ const App = () => {
       <Switch>
         <Route
           path="/" exact
-          component={() =>
-            <Homepage />
+          component={
+            Homepage
           }
         />
         <Route
           path="/resume" exact
-          component={() =>
-            <Resume />
+          component={
+            Resume
           }
         />
         <Route
           path="/projects" exact
-          component={() =>
-            <Projects />
+          component={
+            Projects
           }
         />
       </Switch>
