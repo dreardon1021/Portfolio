@@ -3,6 +3,7 @@ import Header from '../Header/Header.js';
 import Footer from '../Footer/Footer.js'
 import { Route, Switch } from 'react-router-dom';
 import Homepage from '../Homepage/Homepage.js'
+import Resume from '../Resume/Resume.js'
 import './App.css';
 
 const App = () => {
@@ -14,6 +15,12 @@ const App = () => {
           path="/" exact
           component={() =>
             <Homepage />
+          }
+        />
+        <Route
+          path="/resume" exact
+          component={() =>
+            <Resume />
           }
         />
       </Switch>
