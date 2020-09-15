@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   min-height: 95vh;
 }
 
@@ -17,5 +18,9 @@ nav {
 
 .white-text {
   color: white;
-  font-family: Rochester;
+  font-family: Rokkitt;
+}
+
+.header-link {
+  text-decoration: none;
 }
