@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
   return (
     <header>
-      <a className="header-link" href="/">
+      <a className="text-decoration-none" href="/">
       <div className="logo-container">
         <div className="DR-logo">
           <p className="logo-D header-logo-text">D</p>

@@ -4,6 +4,7 @@ import Header from '../Header/Header.js';
 import Footer from '../Footer/Footer.js'
 import Homepage from '../Homepage/Homepage.js'
 import Resume from '../Resume/Resume.js'
+import Projects from '../Projects/Projects.js'
 
 import { Route, Switch } from 'react-router-dom';
 
@@ -16,14 +17,20 @@ const App = () => {
       <Switch>
         <Route
           path="/" exact
-          component={() =>
-            <Homepage />
+          component={
+            Homepage
           }
         />
         <Route
           path="/resume" exact
-          component={() =>
-            <Resume />
+          component={
+            Resume
+          }
+        />
+        <Route
+          path="/projects" exact
+          component={
+            Projects
           }
         />
       </Switch>
