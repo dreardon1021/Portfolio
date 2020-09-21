@@ -6,7 +6,7 @@ const projectsList = [
     login: true,
     userName: 'Any email',
     password: 'Any password',
-    image: 'VRAD-pic.png',
+    image: '/Portfolio/project-images/VRAD-pic.png',
     githubLink: 'https://github.com/dreardon1021/vrad',
     deployedLink: '',
     workInProgress: false
@@ -18,7 +18,7 @@ const projectsList = [
     login: false,
     userName: '',
     password: '',
-    image: 'Covents-pic.png',
+    image: '/Portfolio/project-images/Covents-pic.png',
     githubLink: 'https://github.com/Covents/covents-BE',
     deployedLink: 'https://covents.netlify.app/#/',
     workInProgress: true
@@ -30,7 +30,7 @@ const projectsList = [
     login: true,
     userName: 'marge@turing.io',
     password: 'password123',
-    image: 'rancid-tomatillos-pic.png',
+    image: '/Portfolio/project-images/rancid-tomatillos-pic.png',
     githubLink: 'https://github.com/Covents/covents-BE',
     deployedLink: 'https://covents.netlify.app/#/',
     workInProgress: false
@@ -42,7 +42,7 @@ const projectsList = [
     login: false,
     userName: '',
     password: '',
-    image: 'hearthstone-4-beginners-pic.png',
+    image: '/Portfolio/project-images/hearthstone-4-beginners-pic.png',
     githubLink: 'https://github.com/dreardon1021/Hearthstone4Beginners',
     deployedLink: '',
     workInProgress: false
