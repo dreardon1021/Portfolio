@@ -16,19 +16,19 @@ const App = () => {
       <Header />
       <Switch>
         <Route
-          path="/" exact
+          path="/Portfolio" exact
           component={
             Homepage
           }
         />
         <Route
-          path="/resume" exact
+          path="/Portfolio/resume" exact
           component={
             Resume
           }
         />
         <Route
-          path="/projects" exact
+          path="/Portfolio/projects" exact
           component={
             Projects
           }
