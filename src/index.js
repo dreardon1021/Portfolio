@@ -5,7 +5,7 @@ import App from './App/App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 
-const router = <BrowserRouter basename="/"><App></App></BrowserRouter>
+const router = <BrowserRouter basename="/Portfolio"><App></App></BrowserRouter>
 
 ReactDOM.render(
   <React.StrictMode>
