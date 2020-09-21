@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(../images/Background-Portfolio-1.jpg);
+  background-image: url(../Background-Portfolio-1.jpg);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
