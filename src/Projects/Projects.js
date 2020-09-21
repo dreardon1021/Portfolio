@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section className="projects-container">
       {projectsList.map(project => {
-        let image = Array(`Portfolio/project-images/${project.image}`)
+        let image = Array(`/Portfolio/project-images/${project.image}`)
 
         return(
           <article key={project.id} className="project-card">
