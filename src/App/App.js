@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from '../Header/Header.js';
+import Header from '../Header/header.js';
 import Footer from '../Footer/Footer.js'
 import Homepage from '../Homepage/Homepage.js'
 import Resume from '../Resume/Resume.js'
