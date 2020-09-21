@@ -22,7 +22,7 @@ const App = () => {
           }
         />
         <Route
-          path="/Portfolio/resume" exact
+          path="/resume" exact
           component={
             Resume
           }

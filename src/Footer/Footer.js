@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css'
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -7,9 +8,9 @@ const Footer = () => {
       <hr className="white-line" />
       <div className="nav-bar-area">
       <nav>
-        <a className="nav-bar-item" href="/">Home</a>
-        <a className="nav-bar-item" href="/resume">Resume</a>
-        <a className="nav-bar-item" href="/projects">Projects</a>
+        <NavLink className="nav-bar-item" to="/">Home</NavLink>
+        <NavLink className="nav-bar-item" to="/resume">Resume</NavLink>
+        <NavLink className="nav-bar-item" to="/projects">Projects</NavLink>
         <a className="nav-bar-item" target="_blank" href="https://www.linkedin.com/in/danreardon21/">Linkedin</a>
         <a className="nav-bar-item" target="_blank" href="https://github.com/dreardon1021">Github</a>
         <a className="nav-bar-item" target="_blank" href="https://alumni.turing.io/alumni/dan-reardon">Alumni Profile</a>
