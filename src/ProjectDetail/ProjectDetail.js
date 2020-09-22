@@ -11,7 +11,9 @@ const ProjectDetail = props => {
       <h2 className="white-text">{project.name}</h2>
       <div className="project-img-description-container">
         <img className="project-detail-image" src={project.image} alt={project.name}></img>
-        <p className="white-text project-detail-description">{project.description}</p>
+        <div className="project-description-container">
+          <p className="white-text project-detail-description">{project.description}</p>
+        </div>
       </div>
       <div className="detail-buttons-container">
         <button className="details-nav-button">Github Repository</button>
