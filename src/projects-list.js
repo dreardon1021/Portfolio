@@ -31,8 +31,8 @@ const projectsList = [
     userName: 'marge@turing.io',
     password: 'password123',
     image: '/Portfolio/project-images/rancid-tomatillos-pic.png',
-    githubLink: 'https://github.com/Covents/covents-BE',
-    deployedLink: 'https://covents.netlify.app/#/',
+    githubLink: 'https://github.com/dreardon1021/rancid-tomatillos-app',
+    deployedLink: 'https://lmanriq.github.io/rancid-tomatillos-app/',
     workInProgress: false
   },
   {
