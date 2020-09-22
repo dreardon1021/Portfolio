@@ -29,10 +29,10 @@
 }
 
 .project-card-button {
-  width: 100%;
-  height: 3em;
+  width: 75%;
+  height: auto;
   font-family: Rokkitt;
-  font-size: 1em;
+  font-size: 2em;
   border-radius: 0.5em;
 }
 
