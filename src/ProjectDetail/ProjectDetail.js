@@ -8,7 +8,16 @@ class ProjectDetail extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      project: projectList.find(project => project.id === props.id)
+      project: {}
+    }
+  }
+
+  componentDidMount() {
+    if (this.state.project === {} || projectList.find(project => project.id === this.props.id) === undefined) {
+      this.setState({project: this.state.project})
+    } else {
+      let project = projectList.find(project => project.id === this.props.id)
+      this.setState({project: project})
     }
   }
 
