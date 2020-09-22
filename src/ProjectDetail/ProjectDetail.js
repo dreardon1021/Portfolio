@@ -16,8 +16,8 @@ const ProjectDetail = props => {
         </div>
       </div>
       <div className="detail-buttons-container">
-        <button className="details-nav-button">Github Repository</button>
-        <button className="details-nav-button">Deployed Link</button>
+        <a href={project.githubLink} className="text-decoration-none details-anchor"><button className="details-nav-button">Github Repository</button></a>
+        <a href={project.deployedLink} className="text-decoration-none details-anchor"><button className="details-nav-button">Deployed Link</button></a>
       </div>
     </section>
   )

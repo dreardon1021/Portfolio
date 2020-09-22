@@ -41,8 +41,13 @@
   justify-content: space-between;
 }
 
-.details-nav-button {
+.details-anchor {
   width: 40%;
+  height: auto;
+}
+
+.details-nav-button {
+  width: 100%;
   height: auto;
   font-size: 1.5em;
   font-family: Rokkitt;
