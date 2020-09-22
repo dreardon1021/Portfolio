@@ -1,10 +1,11 @@
 import React from 'react';
 
-import Header from '../Header/header.js';
-import Footer from '../Footer/Footer.js'
-import Homepage from '../Homepage/Homepage.js'
-import Resume from '../Resume/Resume.js'
-import Projects from '../Projects/Projects.js'
+import Header from '../Header/header';
+import Footer from '../Footer/Footer';
+import Homepage from '../Homepage/Homepage';
+import Resume from '../Resume/Resume';
+import Projects from '../Projects/Projects';
+import ProjectDetail from '../ProjectDetail/ProjectDetail';
 
 import { Route, Switch } from 'react-router-dom';
 
@@ -32,6 +33,15 @@ const App = () => {
           component={
             Projects
           }
+        />
+        <Route
+          path="/projects/:project_id"
+          component={({ match }) => {
+            const { params } = match;
+            return (<ProjectDetail
+              id={parseInt(params.project_id)}
+            />)
+          }}
         />
       </Switch>
       <Footer />
