@@ -20,7 +20,8 @@
 .project-card-image {
   width: 120%;
   height: auto;
-  min-height: 20em
+  max-height: 20em;
+  min-height: 20em;
 }
 
 .project-link {
