@@ -19,8 +19,16 @@
   height: auto;
 }
 
-.project-detail-description {
+.project-description-container {
   width: 45%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-detail-description {
+  width: 100%;
   height: auto;
   text-align: center;
   font-size: 1.3em;
