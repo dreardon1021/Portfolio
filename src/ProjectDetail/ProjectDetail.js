@@ -32,13 +32,12 @@ class ProjectDetail extends Component {
           </div>
         </div>
         <div className="detail-buttons-container">
-          <a href={this.state.project.githubLink} className="text-decoration-none details-anchor"><button className="details-nav-button">Github Repository</button></a>
-          <a href={this.state.project.deployedLink} className="text-decoration-none details-anchor"><button className="details-nav-button">Deployed Link</button></a>
+          <a target="_blank"  rel="noopener noreferrer" href={this.state.project.githubLink} className="text-decoration-none details-anchor"><button className="details-nav-button">Github Repository</button></a>
+          <a target="_blank"  rel="noopener noreferrer" href={this.state.project.deployedLink} className="text-decoration-none details-anchor"><button className="details-nav-button">Deployed Link</button></a>
         </div>
       </section>
     )
   }
-  
 }
 
 export default ProjectDetail
