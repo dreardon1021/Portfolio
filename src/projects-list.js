@@ -44,7 +44,7 @@ const projectsList = [
     password: '',
     image: '/Portfolio/project-images/hearthstone-4-beginners-pic.png',
     githubLink: 'https://github.com/dreardon1021/Hearthstone4Beginners',
-    deployedLink: '',
+    deployedLink: 'https://dreardon1021.github.io/Hearthstone4Beginners/',
     workInProgress: false
   }
 ]
