@@ -8,7 +8,7 @@ const projectsList = [
     password: 'Any password',
     image: '/Portfolio/project-images/VRAD-pic.png',
     githubLink: 'https://github.com/dreardon1021/vrad',
-    deployedLink: '',
+    deployedLink: 'https://edlsto.github.io/vrad/',
     workInProgress: false
   },
   {
