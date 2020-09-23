@@ -29,6 +29,14 @@ class ProjectDetail extends Component {
           <img className="project-detail-image" src={this.state.project.image} alt={this.state.project.name}></img>
           <div className="project-description-container">
             <p className="white-text project-detail-description">{this.state.project.description}</p>
+            {this.state.project.userName !== '' ? (
+              <div className="login-info-container">
+                <p className="white-text project-detail-description">{this.state.project.userName}</p>
+                <p className="white-text project-detail-description">{this.state.project.password}</p>
+              </div>
+            ) : (
+              null
+            )}
           </div>
         </div>
         <div className="detail-buttons-container">
