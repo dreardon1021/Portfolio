@@ -14,7 +14,7 @@ const projectsList = [
   {
     id: 2,
     name: 'Covents',
-    description: 'COVENTS is an app providing easy access to virtual events happening around the globe in the era of COVID-19. Our goal is to help preserve a sense of togetherness while social distancing through live entertainment. Upon opening the app, the user is able to view upcoming events gathered by a webscraper and compiled into a single API. The user can favorite events as they browse. Favorited events populate in a section of the nav bar on the left so the user has easy access to the event name, date, and a link to the external details page for that event. The user is also able to filter events by clicking a date on the calendar widget or by entering a search term in the search bar. If there are no matching events, an alert will pop up and the page will redirect back to the home display.',
+    description: 'COVENTS is an app providing easy access to virtual events happening around the globe in the era of COVID-19. Our goal is to help preserve a sense of togetherness while social distancing through live entertainment. Upon opening the app, the user is able to view upcoming events gathered by a webscraper and compiled into a single API. Favorited events populate in a section of the nav bar on the left so the user has easy access to the event name, date, and a link to the external details page for that event. The user is also able to filter events by clicking a date on the calendar widget or by entering a search term in the search bar. The API can take 30 seconds to boot up and display the events.',
     login: false,
     userName: '',
     password: '',
