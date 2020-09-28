@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Deployed Link: https://dreardon1021.github.io/Portfolio/
 
+Wireframe planning via Figma: https://www.figma.com/file/YtELPzCGNxuW3aijiLPqme/Untitled?node-id=0%3A1
+
 This is my Portfolio site with some of my projects on it. Some are completed and some are works in progress and what I am learning now. Currently learning Node/Express/MongoDB/SQL!
 
 This project is created using React.js!
