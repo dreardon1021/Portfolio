@@ -8,7 +8,7 @@
 @media only screen and (max-width: 450px) {
   /* for mobile design */
   .resume-img {
-    margin-top: 1em;
+    margin-top: 2em;
     width: 90%;
   }
 }
