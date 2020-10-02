@@ -4,3 +4,10 @@
   position: relative;
   bottom: 2em;
 }
+
+@media only screen and (max-width: 450px) {
+  .resume-img {
+    margin-top: 1em;
+    width: 90%;
+  }
+}
