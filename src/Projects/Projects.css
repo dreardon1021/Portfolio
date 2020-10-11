@@ -43,3 +43,17 @@
   color: black;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 450px) {
+  .projects-container {
+    flex-direction: column;
+    width: 90%;
+    flex-wrap: nowrap;
+  }
+
+  .project-card {
+    width: 100%;
+    justify-content: space-between;
+    height: 30em;
+  }
+}
