@@ -44,17 +44,26 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   .projects-container {
     flex-direction: column;
-    width: 90%;
+    width: 95%;
     flex-wrap: nowrap;
-    min-height: 100vh;
+    min-height: 250vh;
   }
 
   .project-card {
     width: 100%;
     justify-content: space-between;
-    height: 30em;
+    height: 22em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+  }
+
+  .project-card-image {
+    width: 100%;
+    height: auto;
+    max-height: 20em;
+    min-height: 10em;
   }
 }

@@ -5,6 +5,10 @@
 
 body {
   background-image: url(../Background-Portfolio-1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
