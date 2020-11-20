@@ -46,6 +46,18 @@ const projectsList = [
     githubLink: 'https://github.com/dreardon1021/Hearthstone4Beginners',
     deployedLink: 'https://dreardon1021.github.io/Hearthstone4Beginners/',
     workInProgress: false
+  },
+  {
+    id: 5,
+    name: 'Hackathon Project 1',
+    description: 'Find your perfect restaurant with this restaurant search tool. With 36 restaurants on the list find the best one for you! This project was completed in just 2 short days as per the requirements. I personally would have liked to create restaurant cards but the requirements included a table.',
+    login: false,
+    userName: '',
+    password: '',
+    image: '/Portfolio/project-images/Charter.png',
+    githubLink: 'https://github.com/dreardon1021/spectrum-charter-fe-challenge',
+    deployedLink: 'https://dreardon1021.github.io/spectrum-charter-fe-challenge/',
+    workInProgress: false
   }
 ]
 
